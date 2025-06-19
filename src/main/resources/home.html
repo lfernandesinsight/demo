@@ -6,6 +6,15 @@
         </head>
         <body>
             <h1>Home</h1>
-            <p>Bem vindo ao meu site</p>
+            <h2>Bem vindo ao meu site</h2>
+            <button onclick="mostrarMensagem()">Clique aqui</button>
+           
+            <p id="mensagem"></p>
+
+                <script>
+                    function mostrarMensagem(){
+                        document.getElementById("mensagem").innerHTML = "Você clicou no botão! 🎉";
+                    }
+                </script>
         </body>
     </html>
